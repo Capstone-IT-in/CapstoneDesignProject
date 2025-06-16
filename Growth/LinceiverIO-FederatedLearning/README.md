@@ -1,5 +1,3 @@
----
-
 # Federated Linceiver IO Test
 
 ## Source Code
