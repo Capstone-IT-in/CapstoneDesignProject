@@ -110,5 +110,3 @@ echo "Done. Results saved in ./results/ or ./results-pio/"
 ```
 
 ---
-
-필요 시 `.md` 파일로 저장해드릴 수도 있습니다. 원하시면 알려주세요!
