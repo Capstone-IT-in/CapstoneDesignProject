@@ -1,4 +1,4 @@
-# Adaptive K Test
+# Linceiver IO Stand Alone
 
 ## Source Code
 
@@ -105,8 +105,9 @@ bash report_batch.sh
 
 ## 📈 실험 결과물 및 해석 예시
 
-(추가)
-
+실제 실험 결과 예시는 `results-standalone/` 폴더를 참고해주세요. 실험 결과를 그래프로 나타낸 결과는 아래와 같습니다.
+<img src="https://github.com/Capstone-IT-in/CapstoneDesignProject/blob/main/Growth/LinceiverIO-StandAlone/results-standalone/epoch_accuracy_plot_new.png?raw=true"alt="정확도" width="700"/>
+<img src="https://github.com/Capstone-IT-in/CapstoneDesignProject/blob/main/Growth/LinceiverIO-StandAlone/results-standalone/training_time_and_model_size_new.png?raw=true"alt="시간및사이즈" width="700"/>
 ---
 
 ## ▶️ 실행 스크립트 예시
