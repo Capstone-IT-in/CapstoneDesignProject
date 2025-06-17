@@ -5,7 +5,7 @@
 * `k` : 연합학습에서 사용된 projection 차원
 * `test_no` : 반복 실험의 경우 몇 번째 test 인지 표시함
 
-결과 파일의 첫 번째 라인에는 실험을 진행할 때 사용한 명령어가 저장됩니다. <br><br>
+결과 파일의 첫 번째 라인에는 실험을 진행할 때 사용한 명령어가 저장됩니다. <br>
 
 ```bash
 federated_main_per.py --model=perceiver-io-linstyle --dataset=fmnist --iid=1 --epochs=10 --optimizer=adam --lr=5e-4 --frac=1.0 --num_users=10 --local_bs=64 --local_ep=5 --test_no=1 --k=128
