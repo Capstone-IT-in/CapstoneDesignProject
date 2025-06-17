@@ -9,6 +9,7 @@
 | `run_batch.sh`             | 다양한 설정의 실험을 자동 반복 실행하는 배치 스크립트           |
 | `report_batch.sh`          | 실행된 실험 결과들을 평균내어 `report.txt`로 정리하는 스크립트 |
 | `results/`| 실험 결과 저장 폴더 (자동 생성)                      |
+| `results-standalone/`| 실제 실험 결과 예시                      |
 
 ---
 
