@@ -109,10 +109,10 @@ bash federated_batch.sh
 실험 결과 예시는 `results-fl/` 폴더를 참고해주세요.
 실험 결과에서 각 클라이언트의 Accuracy 평균 및 중간값을 계산하고 이를 Stand-Alone 실험과 비교한 결과는 아래와 같습니다.
 
-<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/2%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C-%ED%91%9C1.jpg?raw=true" alt="표1" width="480"/> <br>
-<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/2%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C-%ED%91%9C2.jpg?raw=true" alt="표2" width="480"/> <br>
-<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/standalone-vs-fl.png?raw=true" alt="standvsfl" width="480"/> <br>
-<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/comparison.png?raw=true" alt="comparison" width="480"/> <br>
+<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/2%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C-%ED%91%9C1.jpg?raw=true" alt="표1" width="700"/> <br>
+<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/2%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C-%ED%91%9C2.jpg?raw=true" alt="표2" width="700"/> <br>
+<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/standalone-vs-fl.png?raw=true" alt="standvsfl" width="700"/> <br>
+<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/comparison.png?raw=true" alt="comparison" width="700"/> <br>
 ---
 
 ## ▶️ 실행 스크립트 예시
