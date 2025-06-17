@@ -1,0 +1,133 @@
+federated_main_per.py --model=perceiver-io-linstyle --dataset=fmnist --iid=1 --epochs=10 --optimizer=adam --lr=5e-4 --frac=1.0 --num_users=10 --local_bs=64 --local_ep=5 --test_no=1 --k=512
+
+Global round : 1
+[Client 5] local_loss: 1.9717, local_acc: 25.59%
+[Client 7] local_loss: 1.8279, local_acc: 32.66%
+[Client 6] local_loss: 1.7801, local_acc: 35.04%
+[Client 3] local_loss: 1.7585, local_acc: 34.25%
+[Client 9] local_loss: 1.5254, local_acc: 42.39%
+[Client 8] local_loss: 1.8589, local_acc: 33.45%
+[Client 4] local_loss: 1.4367, local_acc: 48.05%
+[Client 1] local_loss: 1.7620, local_acc: 36.44%
+[Client 2] local_loss: 1.9616, local_acc: 26.75%
+[Client 0] local_loss: 1.8467, local_acc: 32.67%
+[Average] local_loss: 1.7729, local_acc: 34.73%
+
+Global round : 2
+[Client 0] local_loss: 1.0253, local_acc: 64.32%
+[Client 4] local_loss: 0.7546, local_acc: 75.66%
+[Client 3] local_loss: 1.0008, local_acc: 64.31%
+[Client 1] local_loss: 1.2859, local_acc: 53.48%
+[Client 8] local_loss: 1.4694, local_acc: 45.85%
+[Client 6] local_loss: 0.9099, local_acc: 68.31%
+[Client 9] local_loss: 0.9279, local_acc: 65.97%
+[Client 7] local_loss: 1.1800, local_acc: 59.15%
+[Client 2] local_loss: 1.5486, local_acc: 42.54%
+[Client 5] local_loss: 1.5085, local_acc: 41.68%
+[Average] local_loss: 1.1611, local_acc: 58.13%
+
+Global round : 3
+[Client 9] local_loss: 0.5939, local_acc: 80.49%
+[Client 2] local_loss: 1.3789, local_acc: 49.09%
+[Client 0] local_loss: 0.4444, local_acc: 85.75%
+[Client 3] local_loss: 0.5328, local_acc: 82.40%
+[Client 4] local_loss: 0.4514, local_acc: 86.51%
+[Client 1] local_loss: 0.9837, local_acc: 66.03%
+[Client 8] local_loss: 0.9277, local_acc: 66.22%
+[Client 6] local_loss: 0.3678, local_acc: 88.57%
+[Client 5] local_loss: 1.4474, local_acc: 45.03%
+[Client 7] local_loss: 0.6531, local_acc: 78.69%
+[Average] local_loss: 0.7781, local_acc: 72.88%
+
+Global round : 4
+[Client 0] local_loss: 0.2453, local_acc: 92.38%
+[Client 5] local_loss: 1.2467, local_acc: 52.64%
+[Client 1] local_loss: 0.5770, local_acc: 81.13%
+[Client 9] local_loss: 0.3742, local_acc: 88.45%
+[Client 2] local_loss: 1.2512, local_acc: 54.13%
+[Client 3] local_loss: 0.3153, local_acc: 90.41%
+[Client 7] local_loss: 0.4438, local_acc: 85.94%
+[Client 8] local_loss: 0.5582, local_acc: 81.91%
+[Client 6] local_loss: 0.2604, local_acc: 92.15%
+[Client 4] local_loss: 0.2856, local_acc: 92.04%
+[Average] local_loss: 0.5558, local_acc: 81.12%
+
+Global round : 5
+[Client 6] local_loss: 0.1402, local_acc: 95.88%
+[Client 7] local_loss: 0.2995, local_acc: 90.82%
+[Client 5] local_loss: 1.1232, local_acc: 57.25%
+[Client 4] local_loss: 0.1843, local_acc: 95.07%
+[Client 3] local_loss: 0.1778, local_acc: 94.93%
+[Client 9] local_loss: 0.2418, local_acc: 92.91%
+[Client 0] local_loss: 0.1458, local_acc: 95.32%
+[Client 1] local_loss: 0.3957, local_acc: 87.51%
+[Client 2] local_loss: 1.1372, local_acc: 59.79%
+[Client 8] local_loss: 0.2523, local_acc: 92.48%
+[Average] local_loss: 0.4098, local_acc: 86.20%
+
+Global round : 6
+[Client 7] local_loss: 0.2083, local_acc: 93.83%
+[Client 2] local_loss: 1.0414, local_acc: 64.03%
+[Client 0] local_loss: 0.0980, local_acc: 96.97%
+[Client 4] local_loss: 0.1131, local_acc: 97.17%
+[Client 3] local_loss: 0.1049, local_acc: 97.13%
+[Client 6] local_loss: 0.0885, local_acc: 97.38%
+[Client 5] local_loss: 1.2765, local_acc: 51.81%
+[Client 9] local_loss: 0.1507, local_acc: 95.86%
+[Client 1] local_loss: 0.2721, local_acc: 91.49%
+[Client 8] local_loss: 0.1115, local_acc: 96.83%
+[Average] local_loss: 0.3465, local_acc: 88.25%
+
+Global round : 7
+[Client 4] local_loss: 0.0816, local_acc: 97.92%
+[Client 1] local_loss: 0.1507, local_acc: 95.50%
+[Client 3] local_loss: 0.0681, local_acc: 98.10%
+[Client 6] local_loss: 0.0535, local_acc: 98.50%
+[Client 8] local_loss: 0.0638, local_acc: 98.25%
+[Client 7] local_loss: 0.1416, local_acc: 95.93%
+[Client 5] local_loss: 0.9556, local_acc: 66.52%
+[Client 9] local_loss: 0.1108, local_acc: 97.01%
+[Client 0] local_loss: 0.0588, local_acc: 98.28%
+[Client 2] local_loss: 0.9665, local_acc: 67.40%
+[Average] local_loss: 0.2651, local_acc: 91.34%
+
+Global round : 8
+[Client 9] local_loss: 0.0835, local_acc: 97.78%
+[Client 3] local_loss: 0.0523, local_acc: 98.48%
+[Client 2] local_loss: 0.8550, local_acc: 71.46%
+[Client 1] local_loss: 0.1178, local_acc: 96.24%
+[Client 6] local_loss: 0.0452, local_acc: 98.62%
+[Client 8] local_loss: 0.0416, local_acc: 98.79%
+[Client 0] local_loss: 0.0413, local_acc: 98.80%
+[Client 5] local_loss: 0.7899, local_acc: 72.56%
+[Client 4] local_loss: 0.0693, local_acc: 98.21%
+[Client 7] local_loss: 0.0990, local_acc: 97.23%
+[Average] local_loss: 0.2195, local_acc: 92.82%
+
+Global round : 9
+[Client 5] local_loss: 0.7016, local_acc: 76.13%
+[Client 2] local_loss: 0.7690, local_acc: 74.45%
+[Client 3] local_loss: 0.0330, local_acc: 99.07%
+[Client 4] local_loss: 0.0508, local_acc: 98.69%
+[Client 1] local_loss: 0.0603, local_acc: 98.23%
+[Client 8] local_loss: 0.0283, local_acc: 99.23%
+[Client 6] local_loss: 0.0218, local_acc: 99.37%
+[Client 9] local_loss: 0.0729, local_acc: 98.01%
+[Client 7] local_loss: 0.0711, local_acc: 98.03%
+[Client 0] local_loss: 0.0409, local_acc: 98.68%
+[Average] local_loss: 0.1850, local_acc: 93.99%
+
+Global round : 10
+[Client 7] local_loss: 0.0778, local_acc: 97.74%
+[Client 0] local_loss: 0.0288, local_acc: 99.19%
+[Client 5] local_loss: 0.6398, local_acc: 78.65%
+[Client 8] local_loss: 0.0195, local_acc: 99.45%
+[Client 2] local_loss: 0.7357, local_acc: 75.68%
+[Client 9] local_loss: 0.0636, local_acc: 98.33%
+[Client 6] local_loss: 0.0272, local_acc: 99.24%
+[Client 3] local_loss: 0.0379, local_acc: 98.91%
+[Client 4] local_loss: 0.0436, local_acc: 98.90%
+[Client 1] local_loss: 0.0425, local_acc: 98.68%
+[Average] local_loss: 0.1716, local_acc: 94.48%
+
+Total Run Time: 475.69 sec
