@@ -11,7 +11,7 @@
 | `test_with_sharing_lat.py` | Shared Latent 기반 Perceiver IO 모델 정의 |
 | `utils.py`                 | 데이터 로딩 및 기타 보조 함수 정의                |
 | `save/`                    | 실험 결과 저장 폴더 (자동 생성)                 |
-| `results-fl/`                    | 실제 실험 결과 예시시                |
+| `results-fl/`                    | 실제 실험 결과 예시                |
 
 ---
 
