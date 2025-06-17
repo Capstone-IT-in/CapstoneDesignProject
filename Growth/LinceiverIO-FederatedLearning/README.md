@@ -11,6 +11,7 @@
 | `test_with_sharing_lat.py` | Shared Latent 기반 Perceiver IO 모델 정의 |
 | `utils.py`                 | 데이터 로딩 및 기타 보조 함수 정의                |
 | `save/`                    | 실험 결과 저장 폴더 (자동 생성)                 |
+| `results-fl/`                    | 실제 실험 결과 예시시                |
 
 ---
 
@@ -105,8 +106,13 @@ bash federated_batch.sh
 
 ## 📈 실험 결과물 및 해석 예시
 
-(추가)
+실험 결과 예시는 `results-fl/` 폴더를 참고해주세요.
+실험 결과에서 각 클라이언트의 Accuracy 평균 및 중간값을 계산하고 이를 Stand-Alone 실험과 비교한 결과는 아래와 같습니다.
 
+<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/2%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C-%ED%91%9C1.jpg?raw=true" alt="표1" width="480"/> <br>
+<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/2%EC%B0%A8%EB%B3%B4%EA%B3%A0%EC%84%9C-%ED%91%9C2.jpg?raw=true" alt="표2" width="480"/> <br>
+<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/standalone-vs-fl.png?raw=true" alt="standvsfl" width="480"/> <br>
+<img src="https://github.com/yeongeunshim/CapstoneDesignProject/blob/main/comparison.png?raw=true" alt="comparison" width="480"/> <br>
 ---
 
 ## ▶️ 실행 스크립트 예시
